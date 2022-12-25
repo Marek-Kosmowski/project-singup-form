@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap");
+
+* {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.main {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+}
+
+.left-side {
+  background-image: url(./img/pexels-aleksandar-pasaric-2603464.jpg);
+  background-size: contain;
+  width: 40vw;
+  border: 1px solid black;
+}
+.right-side {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 60vw;
+  background-color: #000204;
+}
+
+.greeting-container {
+  display: flex;
+  align-items: center;
+  height: 35vh;
+  color: #f2e9e4;
+}
+.greeting-text {
+  padding: 3rem;
+}
+
+form {
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  grid-template-rows: 1fr 1fr 1fr;
+  height: 30vh;
+  color: #f2e9e4;
+  background-color: #02050a;
+}
+
+#first-name{
+    grid-column-start: 1;
+    grid-row-start: 1;
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  height: 35vh;
+  color: #f2e9e4;
+}
+button {
+  cursor: pointer;
+  margin: 3rem;
+  width: 15rem;
+  font-size: medium;
+  padding: 10px 10px;
+  color: #f2e9e4;
+  background-color: #333946;
+  border-radius: 10px;
+}
+a {
+  text-decoration: none;
+  color: #333946;
+  font-weight: bold;
+}
+
+.login-text {
+  margin: 0 3rem;
+}
