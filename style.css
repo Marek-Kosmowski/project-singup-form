@@ -17,6 +17,26 @@
   width: 40vw;
   border: 1px solid black;
 }
+
+.left-side-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 12rem;
+  background-color: rgba(0, 0, 0, 0.6);
+  height: 12rem;
+  background-image: url(./img/odin-lined.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.logo-text {
+  color: #f2e9e4;
+  text-align: center;
+  font-weight: 500;
+  font-size: 4rem;
+  margin-left: 20rem;
+}
 .right-side {
   display: flex;
   flex-direction: column;
