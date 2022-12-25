@@ -36,17 +36,66 @@
 }
 
 form {
+  padding: 3rem;
   display: grid;
   grid-template-columns: repeat(2, 2fr);
-  grid-template-rows: 1fr 1fr 1fr;
+  align-items: center;
   height: 30vh;
   color: #f2e9e4;
   background-color: #02050a;
 }
+form input {
+  border-radius: 6px;
+  width: 13rem;
+  height: 1.2rem;
+}
 
-#first-name{
-    grid-column-start: 1;
-    grid-row-start: 1;
+.first-name,
+.email,
+.password {
+  grid-column-start: 1;
+}
+
+.last-name,
+.phone-number,
+.confirm-password {
+  align-self: end;
+
+  grid-column-start: 2;
+}
+.first-name,
+.last-name {
+  align-self: end;
+
+  grid-row-start: 1;
+}
+#first-name,
+#last-name {
+  align-self: start;
+  grid-row-start: 2;
+}
+
+.email,
+.phone-number {
+  align-self: end;
+  grid-row-start: 3;
+}
+
+#email,
+#phone-number {
+  align-self: start;
+  grid-row-start: 4;
+}
+
+.password,
+.confirm-password {
+  align-self: end;
+  grid-row-start: 5;
+}
+#password,
+#confirm-password {
+  align-self: start;
+  grid-row-start: 6;
 }
 
 .login {
