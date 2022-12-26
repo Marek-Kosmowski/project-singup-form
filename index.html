@@ -30,22 +30,22 @@
                     a.
                 </h2>
             </section>
-            <form action="">
+            <form id="main-form" action="">
                 <label class="first-name" for="first-name">FIRST NAME:</label>
                 <input type="text" name="" id="first-name" required>
                 <label class="last-name" for="last-name">LAST NAME:</label>
                 <input type="text" name="" id="last-name" required>
                 <label class="email" for="email">EMAIL:</label>
-                <input type="text" name="" id="email" required>
+                <input type="email" name="" id="email" required>
                 <label class="phone-number" for="phone-number">PHONE NUMBER:</label>
                 <input type="text" name="" id="phone-number">
                 <label class="password" for="password">PASSWORD:</label>
-                <input type="text" name="" id="password" required>
+                <input type="password" name="" id="password" required>
                 <label class="confirm-password" for="confirm-password">CONFIRM PASSWORD:</label>
-                <input type="text" name="" id="confirm-password" required>
+                <input type="password" name="" id="confirm-password" required>
             </form>
             <section class="login">
-                <button>Create Account</button>
+                <button form="main-form">Create Account</button>
                 <p class="login-text">Already have an account? <a class="login-link" href="">Log in</a></p>
             </section>
         </section>
