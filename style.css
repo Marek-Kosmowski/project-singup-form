@@ -125,6 +125,15 @@ form input {
   align-self: end;
   grid-row-start: 5;
 }
+
+.match {
+  border: 3px solid green;
+}
+
+.unmatch {
+  border: 3px solid red;
+}
+
 #password,
 #confirm-password {
   align-self: start;
